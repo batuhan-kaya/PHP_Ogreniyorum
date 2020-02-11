@@ -21,8 +21,8 @@ $SQL = "SELECT
   } else {
     echo "Kullanıcı adı veya parola hatalı!";
   }
-
-} 
+// deneme
+}
 
 ?>
 <h1>Kullanıcı Girişi</h1>
