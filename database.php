@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
 $username   = "root";
-$password   = "";
+$password   = "root";
 $dbname     = "haftalik_menu";
 
 // Veritabanı bağlantısının oluşturulması

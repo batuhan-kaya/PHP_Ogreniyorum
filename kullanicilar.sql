@@ -15,5 +15,7 @@ CREATE TABLE `kullanicilar` (
   `tur` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_turkish_ci;
 
+INSERT INTO `kullanicilar` (`tc`, `adisoyadi`, `parola`, `tur`) VALUES
+('00000000000',	'batuhan',	'sifre12345',	1);
 
--- 2020-02-12 12:49:37
+-- 2020-02-12 12:54:15
