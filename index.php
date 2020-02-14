@@ -18,6 +18,8 @@ $SQL = "SELECT
   $KayitSayisi = mysqli_num_rows($rows);
   if ($KayitSayisi == 1) {
     echo "Giriş Başarılı !";
+    echo "AnaSayfaya yönlendiriliyorsunuz...";
+    header("Refresh:3; url=page1.php");
   } else {
     echo "Kullanıcı adı veya parola hatalı!";
   }
