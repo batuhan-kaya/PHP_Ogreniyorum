@@ -25,7 +25,7 @@ $SQL = "SELECT
   }
 // deneme
 }
-
+	require_once("bootstrap.php");
 ?>
 <h1>Kullanıcı Girişi</h1>
 <form method="post">
